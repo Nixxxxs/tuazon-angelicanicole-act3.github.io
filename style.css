@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .main{
+    width:100%;
+    background:url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+ }
+ .navbar{
+     width: 1000px;
+     height: 75px;
+     margin: auto;
+ }
+ .icon{
+     width: 200px;
+     float: left;
+     height: 70px;
+ }
+ .logo{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+ }
+ .menu{
+     width: 400px;
+     float: left;
+     height: 70px;
+ }
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: violet;
+}
+.content img{
+    border-radius: 50%;
+    height: 300px;
+    left: 650px;
+    position: absolute;
+    margin-top: -250px;
+}
+.content{
+    width: 1000px;
+    height: auto;
+    margin: 50px;
+    margin-left: 150px;
+    color: white;
+    position: relative;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: violet;
+}
+.scontent img{
+    border-radius: 50%;
+    height: 200px;
+}
+.skill h2{
+    text-align: center;
+}
+.skill{
+    list-style: none;
+    text-transform: uppercase;
+    width: 500px;
+    margin: 30px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+    margin: 10px 0;
+    padding: 5px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.html{
+    width: 70%;
+    animation: html 3s;
+}
+.css{
+    width: 50%;
+    animation: css 3s;
+}
+.python{
+    width: 30%;
+    animation: python 3s;
+}
+.javascript{
+    width: 40%;
+    animation: javascript 3s;
+}
+.java{
+    width: 60%;
+    animation: csha 3s;
+}
+.csha{
+    width: 90%;
+    animation: csha 3s;
+}
+.mips{
+    width: 55%;
+    animation: mips 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes csha{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes mips{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+.contact{
+    width: 1000px;
+    height: auto;
+    margin: 50px;
+    margin-left: 100px;
+    color: white;
+    position: absolute;
+
+}
+.contact .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contact h2{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    margin-left: 180px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.project h2{
+      font-family: 'Times New Roman';
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+  }
+  .project h3{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.footer{
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 0;
+    margin-top: 180px;
+    margin-left: 600px;
+    
+
+}
